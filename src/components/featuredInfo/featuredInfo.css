@@ -1,0 +1,50 @@
+.featured {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.featuredItem {
+  flex: 1;
+  padding: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+  margin: 20px;
+}
+
+.featuredTitle {
+  font-size: 20px;
+}
+
+.featuredMonyContainer {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.featuredMony {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.featuredMonyRate {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.featuredIcon {
+  font-size: 14px;
+  color: green;
+}
+
+.featuredIcon.negative {
+  color: red;
+}
+
+.featuredSub {
+  color: gray;
+}
