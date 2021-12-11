@@ -52,3 +52,96 @@ export const userData = [
     "Active User": 4000,
   },
 ];
+
+export const userRows = [
+  {
+    id: 1,
+    username: "Jon Snow",
+    avatar:
+      "https://i.picsum.photos/id/64/300/300.jpg?hmac=tIqPMmxrlIvlgHwBqR7lzPQyHO-KElXvhXwtKuyPse4",
+    email: "jon@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 2,
+    username: "Jon Snow",
+    avatar:
+      "https://i.picsum.photos/id/64/300/300.jpg?hmac=tIqPMmxrlIvlgHwBqR7lzPQyHO-KElXvhXwtKuyPse4",
+    email: "jon@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 3,
+    username: "Jon Snow",
+    avatar:
+      "https://i.picsum.photos/id/64/300/300.jpg?hmac=tIqPMmxrlIvlgHwBqR7lzPQyHO-KElXvhXwtKuyPse4",
+    email: "jon@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 4,
+    username: "Jon Snow",
+    avatar:
+      "https://i.picsum.photos/id/64/300/300.jpg?hmac=tIqPMmxrlIvlgHwBqR7lzPQyHO-KElXvhXwtKuyPse4",
+    email: "jon@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 5,
+    username: "Jon Snow",
+    avatar:
+      "https://i.picsum.photos/id/64/300/300.jpg?hmac=tIqPMmxrlIvlgHwBqR7lzPQyHO-KElXvhXwtKuyPse4",
+    email: "jon@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 6,
+    username: "Jon Snow",
+    avatar:
+      "https://i.picsum.photos/id/64/300/300.jpg?hmac=tIqPMmxrlIvlgHwBqR7lzPQyHO-KElXvhXwtKuyPse4",
+    email: "jon@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 7,
+    username: "Jon Snow",
+    avatar:
+      "https://i.picsum.photos/id/64/300/300.jpg?hmac=tIqPMmxrlIvlgHwBqR7lzPQyHO-KElXvhXwtKuyPse4",
+    email: "jon@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 8,
+    username: "Jon Snow",
+    avatar:
+      "https://i.picsum.photos/id/64/300/300.jpg?hmac=tIqPMmxrlIvlgHwBqR7lzPQyHO-KElXvhXwtKuyPse4",
+    email: "jon@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 9,
+    username: "Jon Snow",
+    avatar:
+      "https://i.picsum.photos/id/64/300/300.jpg?hmac=tIqPMmxrlIvlgHwBqR7lzPQyHO-KElXvhXwtKuyPse4",
+    email: "jon@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 10,
+    username: "Jon Snow",
+    avatar:
+      "https://i.picsum.photos/id/64/300/300.jpg?hmac=tIqPMmxrlIvlgHwBqR7lzPQyHO-KElXvhXwtKuyPse4",
+    email: "jon@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+];
