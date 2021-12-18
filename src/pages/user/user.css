@@ -63,3 +63,118 @@
 .userShowUserTitle {
   font-weight: 300;
 }
+
+.userShowBottom {
+  margin-top: 20px;
+}
+
+.userShowTitle {
+  font-weight: 600;
+  font-size: 14px;
+  color: rgb(175, 170, 170);
+}
+
+.userShowInfo {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  color: #444;
+}
+
+.userShowIcon {
+  font-size: 16px !important;
+  margin-right: 10px;
+}
+
+.userUpdateTitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.userUpdateForm {
+  display: flex;
+  gap: 20px 40px;
+  margin-top: 20px;
+}
+
+.userUpdateLeft,
+.userUpdateRight {
+  flex: 1;
+}
+
+.userUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.userUpdateItem > label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.userUpdateInput {
+  border: none;
+  width: 100%;
+  border-bottom: 1px solid gray;
+  outline: none;
+  height: 30px;
+  display: block;
+}
+
+.userUpdateRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.userUpdateUpload {
+  position: relative;
+  width: 100%;
+  height: 270px;
+}
+
+.userUpdateImg {
+  width: 100%;
+  height: 270px;
+  border-radius: 10px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.uploadBtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  display: block;
+  margin: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.uploadIcon {
+  color: rgb(0 0 0 / 52%);
+  font-size: 50px !important;
+}
+
+.userUpdateUpload:hover .uploadBtn {
+  visibility: visible;
+  opacity: 1;
+}
+
+.userUpdateButton {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: darkblue;
+  color: #fff;
+}
